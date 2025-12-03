@@ -1,4 +1,5 @@
-import img from "/Users/Lenovo/Desktop/lpmi-web/src/assets/images/imgtest.png";
+// Remove the import line
+const img = "https://placehold.co/600x400";
 
 const MinistriesBanner = () => {
   const mincards = [
@@ -31,7 +32,7 @@ const MinistriesBanner = () => {
               backgroundPosition: "center",
             }}
           >
-            <div space
+            <div
               className={`flex flex-col justify-center items-center relative h-full w-full ${mincard.color} group-hover/mincard:opacity-60 transition duration-300`}
             >
               <div className="flex justify-center items-center">
