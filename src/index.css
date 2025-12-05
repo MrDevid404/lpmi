@@ -9,12 +9,12 @@
 @tailwind utilities;
 
 @theme {
-  --color-primary: #3454f9;
-  --color-secondary: #f0f2ff;
-  --color-accent: #ff5c93;
+  --color-primary: #C0754D;
+  --color-secondary: rgb(255, 246, 242);
+  --color-accent: rgb(255, 122, 27);
   --color-text-primary: #111111;
   --color-text-secondary: #6e6e73;
-  --color-bg-secondary: #000000;
+  --color-bg-secondary: #C0754D;
   --font-display: "Inter", sans-serif;
 }
 
@@ -73,16 +73,19 @@ button, .btn {
 
 @layer utilities {
   .btn-primary {
-    @apply bg-primary text-white rounded-full  px-[22px] py-2 font-medium hover:bg-primary/90 active:scale-95 transition duration-300;
+    @apply bg-primary text-white rounded-full  px-[22px] py-2 font-medium hover:bg-[#4646463f] backdrop-blur-lg active:scale-95 transition duration-300;
   }
   .btn-secondary {
-    @apply text-primary rounded-full  px-[22px] py-2 font-medium hover:bg-secondary active:scale-95 transition duration-300;
+    @apply text-primary rounded-full px-[22px] py-2 font-medium hover:bg-secondary active:scale-95 transition duration-300;
   }
   .btn-outline {
-    @apply border-[#FFFFFF4D] border-2 rounded-full px-5.5 max-w-sm py-2 active:scale-95 transition duration-300;
+    @apply border-[#FFFFFF4D] backdrop-blur-lg border hover:border-[#46464667] rounded-full px-5.5 max-w-sm py-2 hover:bg-[#4646463f] active:scale-95 transition duration-300;
   }
   .card {
     @apply bg-white rounded-xl overflow-hidden hover:shadow-lg transition shadow-sm;
+  }
+  .bg-black {
+    background-color: rgb(255, 122, 27)
   }
   .eyebrow {
     @apply bg-[#F0F2FF] py-1 text-primary px-4 text-[14px] font-display leading-[100%] tracking-[0px] flex justify-center items-center rounded-full w-[229px];

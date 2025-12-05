@@ -25,7 +25,7 @@ const Mission = () => {
             className="group"
           >
             <div className="relative group-hover:scale-105 transition-transform duration-300 flex flex-col gap-4 group items-center justify-center">
-              <div className="relative inline-block cursor-pointer">
+              <div className="relative inline-block cursor-pointer px-3">
                 <span className="absolute inset-0 -z-10 left-0 -bottom-0.5 h-full bg-primary w-0 transition-all duration-300 group-hover:w-full group-hover:h-full" />
                 <h1 className="relative z-10 text-4xl font-bold text-center group-hover:text-white transition-all duration-300">
                   {" "}

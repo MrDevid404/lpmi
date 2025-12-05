@@ -16,7 +16,7 @@ const EventsList = () => {
       location: "Royal Seed Events Center, Oyo Rd, Ibadan",
       description:
         "Join us for worship, prayer, and fellowship as we celebrate the love of Christ together.",
-      image: "/images/event1.jpg",
+      image: "https://placehold.co/600x400",
       map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0638020146903!2d3.9149414205465174!3d7.568023399889604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1039efdc948b4065%3A0xf9c47114ddf0d8ac!2sRoyal%20Seed%20Events%20Centre!5e0!3m2!1sen!2sng!4v1762946934269!5m2!1sen!2sng",
     },
     {
@@ -26,7 +26,7 @@ const EventsList = () => {
       location: "Royal Seed Events Center, Oyo Rd, Ibadan",
       description:
         "Join us for worship, prayer, and fellowship as we celebrate the love of Christ together.",
-      image: "/images/event1.jpg",
+      image: "https://placehold.co/600x400",
       map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0638020146903!2d3.9149414205465174!3d7.568023399889604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1039efdc948b4065%3A0xf9c47114ddf0d8ac!2sRoyal%20Seed%20Events%20Centre!5e0!3m2!1sen!2sng!4v1762946934269!5m2!1sen!2sng",
     },
     {
@@ -36,7 +36,7 @@ const EventsList = () => {
       location: "Finicky Restaurant, 6 Jibowu St, Yaba, Lagos 101252, Lagos",
       description:
         "Join us for worship, prayer, and fellowship as we celebrate the love of Christ together.",
-      image: "/images/event1.jpg",
+      image: "https://placehold.co/600x400",
       map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.0220196501587!2d3.366267672771735!3d6.518896093473582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c4e0130462b%3A0xfc985533bfed08be!2sFinicky%20Restaurant!5e0!3m2!1sen!2sng!4v1762947300441!5m2!1sen!2sng",
     },
     {
@@ -46,7 +46,7 @@ const EventsList = () => {
       location: "Youth Hall, Grace Sanctuary",
       description:
         "A vibrant gathering for young believers to grow in faith and purpose.",
-      image: "/images/event2.jpg",
+      image: "https://placehold.co/600x400",
       map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0638020146903!2d3.9149414205465174!3d7.568023399889604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1039efdc948b4065%3A0xf9c47114ddf0d8ac!2sRoyal%20Seed%20Events%20Centre!5e0!3m2!1sen!2sng!4v1762946934269!5m2!1sen!2sng",
     },
     {
@@ -56,7 +56,7 @@ const EventsList = () => {
       location: "32fm, on the radio",
       description:
         "A vibrant gathering for young believers to grow in faith and purpose.",
-      image: "/images/event2.jpg",
+      image: "https://placehold.co/600x400",
       map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0638020146903!2d3.9149414205465174!3d7.568023399889604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1039efdc948b4065%3A0xf9c47114ddf0d8ac!2sRoyal%20Seed%20Events%20Centre!5e0!3m2!1sen!2sng!4v1762946934269!5m2!1sen!2sng",
     },
     {
@@ -66,7 +66,7 @@ const EventsList = () => {
       location: "32fm, on the radio",
       description:
         "A vibrant gathering for young believers to grow in faith and purpose.",
-      image: "/images/event2.jpg",
+      image: "https://placehold.co/600x400",
       map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.0638020146903!2d3.9149414205465174!3d7.568023399889604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1039efdc948b4065%3A0xf9c47114ddf0d8ac!2sRoyal%20Seed%20Events%20Centre!5e0!3m2!1sen!2sng!4v1762946934269!5m2!1sen!2sng",
     },
   ];
@@ -126,7 +126,7 @@ const EventsList = () => {
                   {selectedEvent.date} • {selectedEvent.time}
                 </p>
                 <p className="text-gray-600">{selectedEvent.location}</p>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-gray-700 hidden md:flex leading-relaxed">
                   {selectedEvent.description}
                 </p>
               </div>

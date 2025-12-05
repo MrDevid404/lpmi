@@ -3,15 +3,15 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const carouselImages = [
   {
-    src: "https://images.unsplash.com/photo-1608037521277-154cd1b89191?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=870",
+    src: "https://placehold.co/600x400",
     alt: "Church Gathering",
   },
   {
-    src: "https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=870",
+    src: "https://placehold.co/600x400",
     alt: "Worship Team",
   },
   {
-    src: "https://images.unsplash.com/photo-1587595431973-160d0d94add1?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=876",
+    src: "https://placehold.co/600x400",
     alt: "Community Outreach",
   },
 ];
@@ -42,7 +42,7 @@ const Hero = () => {
       >
         {/* LEFT COLUMN */}
         <div className="content-left flex flex-col gap-6 text-center lg:text-left animate-slide-up-fade">
-          <h1 className="text-5xl lg:text-8xl font-bold leading-24">
+          <h1 className="text-5xl lg:text-8xl font-bold ">
             Welcome <span className="text-primary">Home</span>
           </h1>
 

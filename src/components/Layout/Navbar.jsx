@@ -16,7 +16,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="navbar font-display bg-white/70 backdrop-blur-lg shadow-sm px-6 md:px-12 py-4 flex justify-between items-center gap-4 w-full">
+    <nav className="navbar font-display bg-white/70 backdrop-blur-lg shadow-sm px-6 md:px-4 py-4 flex justify-between items-center gap-4 md:gap-3 lg:gap-4 w-full">
       {/* LOGO */}
       <Link to="/" className="flex items-end gap-1 self-start">
         <h2 className="font-extrabold text-primary text-3xl tracking-tight">
@@ -75,7 +75,7 @@ const Navbar = () => {
 
       {/* MOBILE DROPDOWN */}
       {open && (
-        <div className="absolute top-full left-0 w-full bg-white shadow-md md:hidden flex flex-col py-4 space-y-3 px-6 z-100">
+        <div className="absolute inset-0 top-full left-0 w-full bg-white shadow-md md:hidden flex flex-col py-4 space-y-3 px-6 z-100">
           {links.map((link) => {
             const isActive = location.pathname === link.href;
 
